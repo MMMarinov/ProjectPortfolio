@@ -40,11 +40,14 @@ ONE_DAY = timedelta(days=1)
 HOLIDAYS_US = holidays.US()
 
 # Retrieves the next business day
+
+
 def next_business_day():
     next_day = dt.today() + ONE_DAY
     while next_day.weekday() in holidays.WEEKEND or next_day in HOLIDAYS_US:
         next_day += ONE_DAY
     return next_day
+
 
 # Formats next b day "YYYYMMDD"
 if next_business_day().month < 10:
@@ -114,7 +117,7 @@ if os.path.exists(filePath):
         print("No new payments found")
         time.sleep(10)
         quit()
-        
+
 print("Number of Files: " + str(len(NumberOfWires)))
 for i in range(len(NumberOfWires)):
     # SQL to select data from the person table.
