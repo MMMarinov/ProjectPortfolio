@@ -2,10 +2,29 @@
 This folder contains all the projects that I wish to display as a show of my interest to learn and expand my capabilities.
 
 In this repo you'll find the following projects:
-1. Data Science: Binary Classification - Titianc_SpaceShip
-  Description: In this folder you'll find a notebook where I go through and work on a dataset containing personal records where the target variable is whether
-  or not the person was transported or not. I process the data by cleaning then evaluating key features and setting up a Train/Test Split.
-  Afterwards, I set up an XGBoost model to analyze the features and predict the target variable.
+1. Data Science:
+     1. Binary Classification - Titianc_SpaceShip
+       Description: In this folder you'll find a notebook where I go through and work on a dataset containing personal records where the target variable is whether
+       or not the person was transported or not. I process the data by cleaning then evaluating key features and setting up a Train/Test Split.
+       Afterwards, I set up an XGBoost model to analyze the features and predict the target variable.
 
   Key Highlights: Exploratory Data Analysis / Data Cleaning / Gradient Boost Decision Tree Model / Cross-Validation / Visualizations
-2. 
+2. Data Analysis:
+     1. Trend Tracker Report
+       This report is used to identify potential gaps in knowledge and understanding in a selected team. 
+       This report can be used to highlight the key areas of improvement and where further training may be needed either on a team scale or individual level.
+       It can be used to track improvement over time and to see what changes are occurring historically.
+        
+       Key Highlights: Monitoring Trends, Evaluating changes on Team and Individual Scale, Highlighting Key Areas of Improvement
+     2. North American Sales Report
+       This report looks at the Sales and purchase data across Canada and the US. 
+       This report can be used to evaluate how well a product category/line is doing in it's respective country and uncover any key trends found.
+       The report specializes in 3 categories and looks at the sales across years, company, and different lines of business.
+
+       Key Highlights: Quick evaluation between Countries, Filtering for specific segments of business, Analysis of Sales across several categories
+
+3. Data Engineering:
+     1. Payment to Accounting:
+       This python script performs an ETL job where the source information stored in a SQL Server Database is extracted, transformed, and sent over to Accounting on a bi-daily basis.
+
+       Key Highlights: SQL Query, Manipulates data to gather specifc payment records based on today's date and the last runtime of the script, Loop and generate csv's based on payment records
