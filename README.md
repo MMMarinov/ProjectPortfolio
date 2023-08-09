@@ -33,4 +33,11 @@ In this repo you'll find the following projects:
        This python script performs an ETL job where the source information stored in a SQL Server Database is extracted, transformed, and sent over to Accounting on a bi-daily basis.<br>
 
      Key Highlights:<br>
-          SQL Query / Manipulates data to gather specifc payment records based on today's date and the last runtime of the script / Loop and generate csv's based on payment records
+          SQL Query / Manipulates data to gather specifc payment records based on today's date and the last runtime of the script / Loop and generate csv's based on payment records <br>
+
+2. Sales Incurment Query <br>
+    The query uses a set of tables and manipulates the information in such a way that the data still required from a depreciated table 
+can still be gathered and presented to the key stakeholders. <br>
+
+   Key Highlights: <br>
+          Extracting key information from several database tables / Transforming information that served one intended purpose and bending that data structure to work in favour of the business problem / Loading the final result into a report, with an easy to extract output
