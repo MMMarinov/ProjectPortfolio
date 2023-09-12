@@ -40,4 +40,4 @@ In this repo you'll find the following projects:
 can still be gathered and presented to the key stakeholders. <br>
 
    Key Highlights: <br>
-          Extracting key information from several database tables / Transforming information that served one intended purpose and bending that data structure to work in favour of the business problem / Loading the final result into a report, with an easy to extract output
+      Extracting key information from several database tables / Transforming information that served one intended purpose and bending that data structure to work in favour of the business problem / Loading the final result into a report, with an easy to extract output
