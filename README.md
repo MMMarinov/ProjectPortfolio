@@ -28,6 +28,13 @@ In this repo you'll find the following projects:
      Key Highlights: <br>
             Quick evaluation between Countries / Filtering for specific segments of business / Analysis of Sales across several categories
 
+3. North American Payment Interest Report <br>
+       This report focuses on the Interest Amount paid from the US and Canada and looks at this information in 3 main categories.
+       Interest Amount by Province/State, by Client, and by Payment Date. The goal is to look at the relationship of interest amount with these different categories to drive business decision.
+
+     Key Highlights: <br>
+            Identifying relationships with the target variable / Expansive range of visuals and interaction / Forcasting and prediciting future payments
+
 ## 3. Data Engineering:
 1. Payment to Accounting <br>
        This python script performs an ETL job where the source information stored in a SQL Server Database is extracted, transformed, and sent over to Accounting on a bi-daily basis.<br>
