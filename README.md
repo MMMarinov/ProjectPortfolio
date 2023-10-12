@@ -10,6 +10,12 @@ In this repo you'll find the following projects:
 
       Key Highlights: <br>
             Exploratory Data Analysis / Data Cleaning / Gradient Boost Decision Tree Model / Cross-Validation / Visualizations
+
+2. Book Recommendation  System - Collaborative Filtering <br>
+       Description: For this project I built a book recommendation system utilizing collaborative filtering using user ratings. I achieved the intended result by leveraging a Nearest Neighbor model and with Cosine Similarity to identify which books to recommend. <br>
+
+      Key Highlights: <br>
+            Exploratory Data Analysis / Data Cleaning / Nearest Neighbor Model / Collaborative Filtering / Visualizations   
    
 ## 2. Data Analysis:
 1. Trend Tracker Report <br>
